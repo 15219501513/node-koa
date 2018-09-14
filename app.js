@@ -32,8 +32,19 @@ app.use(async (ctx, next)=>{
     await next();
 });
 
+// 设置静态文件目录
+app.use(static(path.resolve('./public'),{
+    // 歌曲头部标准，手动设置
+    setHeaders:function (res, path, stats) {
+        if(path.includes('.mp3')) {
+            let size = stats.size;
+            res.setHeader('Accept-Ranges','bytes');
+            res.setHeader('Content-Ranges','bytes 0-'+ (size-1) +'/'+size );
+        }
+    }
+}));
+// koa 中音乐播放在chrome浏览器中不能拖动播放，因为koa请求接口解析歌词文件时返回的头部不完整，express的会完整
 
-app.use(static(path.resolve('./public'))); // 设置静态文件目录
 
 // 登录拦截
 app.use(async (ctx, next) => {
