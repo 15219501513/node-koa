@@ -3,18 +3,18 @@ node+koa做的一个简单的音乐播放的网站，这是我初步学习koa做
 
 
 ## Included Examples
-* [koa](https://github.com/15219501513/node-koa/edit/master/README.md) - 最简单的koa实例
-* [koa-router](https://github.com/15219501513/node-koa/edit/master/README.md) - koa-router路由中间件的使用
-* [koa-static](https://github.com/15219501513/node-koa/edit/master/README.md) - 设置静态文件目录
-* [koa-art-template;art-tempalte](https://github.com/15219501513/node-koa/edit/master/README.md) - 模板引擎
-* [koa-bodyparser](https://github.com/15219501513/node-koa/edit/master/README.md) - 数据处理
-* [koa-session](https://github.com/15219501513/node-koa/edit/master/README.md) - 数据存储
-* [mysql](https://github.com/15219501513/node-koa/edit/master/README.md) - 连接数据库，对数据进行增查删改
-* [函数节流](https://github.com/15219501513/node-koa/edit/master/README.md) - 优化前端性能，setTimeOut的使用
-* [密码强度检测](https://github.com/15219501513/node-koa/edit/master/README.md) - 正则匹配判断密码强度级别
-* [captchapng](https://github.com/15219501513/node-koa/edit/master/README.md) - 数字图形验证
-* [上传文件](https://github.com/15219501513/node-koa/edit/master/README.md) - 数据处理
-* [音乐播放歌词展示](https://github.com/15219501513/node-koa/edit/master/README.md) - 下载文件并处理数据，歌词展示并滚动
+* koa - 最简单的koa实例
+* koa-router - koa-router路由中间件的使用
+* koa-static - 设置静态文件目录
+* koa-art-template;art-tempalte - 模板引擎
+* koa-bodyparser - 数据处理
+* koa-session - 数据存储
+* mysql - 连接数据库，对数据进行增查删改
+* 函数节流 - 优化前端性能，setTimeOut的使用
+* 密码强度检测 - 正则匹配判断密码强度级别
+* captchapng - 数字图形验证
+* 上传文件 - 数据处理
+* 音乐播放歌词展示 - 下载文件并处理数据，歌词展示并滚动
 
 ## 暂时遗留问题
 * 问题一：audio标签播放音乐，在chrome上不能拖动播放，在火狐下可以，待解决
