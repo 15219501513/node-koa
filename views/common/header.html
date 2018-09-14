@@ -1,0 +1,15 @@
+<header class="aw-header">
+    {{ if user }}
+    <div class="top-quit">
+        <span class="top-name">您好，{{ user.username }}</span>
+        <a href="/logout">退出</a>
+    </div>
+    {{else}}
+    <div class="top-login">
+        <div class="login-btns">
+            <a href="/login">登录</a>
+            <a href="/register">注册</a>
+        </div>
+    </div>
+    {{/if}}
+</header>

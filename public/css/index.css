@@ -1,0 +1,45 @@
+
+.container{
+    max-width: 1200;
+    margin: 40px auto;
+
+}
+.container .title{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.add-music{
+    display: block;
+    width: 84px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #419f47;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+.aw_lrc_box{
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.lrc{
+    width: 360px;
+    margin-top: 200px;
+    position: relative;
+    text-align:center;
+    left: 50%;
+    margin-left: -180px;
+}
+.lrcBg{
+    background-color: #000;
+    opacity: .4;
+    -moz-opacity: .4;
+    filter: alpha(opacity=40);
+}
+.row{
+    margin-left: 0;
+}

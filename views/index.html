@@ -1,0 +1,149 @@
+{{ extend './layout/main.html' }}
+
+{{ block 'content' }}
+<link rel="stylesheet" href="public/css/index.css" />
+<div class="container">
+    <h1 class="title">首页——我的音乐</h1>
+    <div class="main row">
+        <a href="/addMusic" class="add-music">添加音乐</a>
+        <div class="main-list col-xs-12 col-md-8">
+            <table class="table table-striped">
+                <thead>
+                    <th>歌曲标题</th>
+                    <th>时长</th>
+                    <th>歌手</th>
+                    <th>编辑</th>
+                    <th>删除</th>
+                    <th>播放</th>
+                </thead>
+                <tbody id="aw_tbody">
+
+                    {{if (code === 0)}}
+                        <tr><td colspan="6" class="text-center">{{musicMsg}}</td></tr>
+                    {{else if (code === 1) }}
+                        {{ each musicLists }}
+                            <tr>
+                                <td>{{ $value.title }}</td>
+                                <td>{{ $value.time }}</td>
+                                <td>{{ $value.singer }}</td>
+                                <td><a href="/editMusic?uid={{ $value.uid }}" uid="{{ $value.id }}">编辑</a></td>
+                                <td><a href="javascript:void(0)" uid="{{ $value.id }}" class="aw-delete">删除</a></td>
+                                <td><a href="javascript:void(0)" file="{{ $value.file }}" fileLrc="{{ $value.fileLrc }}" class="aw-play">播放</a></td>
+                            </tr>
+                        {{ /each }}
+                    {{ /if }}
+                </tbody>
+            </table>
+        </div>
+        <div class="main-show col-xs-6 col-md-4">
+            <audio id="audio" autoplay src="" controls="controls">播放</audio>
+            <div class="aw_lrc_box" id="lrc_box">
+                <div class="lrc text-center" id="lrc"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // 删除功能
+    $("#aw_tbody").on("click",".aw-delete", function(){
+       let uid = $(this).attr("uid");
+       $.ajax({
+           url: '/deleteBGM',
+           type: 'post',
+           data: {
+              uid: uid
+           },
+           success: function(data){
+              if(data.code === 001){
+                  window.location.reload();
+              }
+           }
+       });
+    });
+
+    // 将获取的歌词转换成对象
+    function parseText(text){
+        let lrcObj={};
+        let lrc_text = text.split('\n');
+        let regex = /\[(\d{2})\:(\d{2})\.(\d{2})\](.*)/;
+
+        for(let i=0; i<lrc_text.length; i++){
+            let lrc_parts = lrc_text[i]
+            let result = regex.exec(lrc_parts);
+
+            if(!result) continue;
+
+            let minute = result[1];
+            let second = result[2];
+            let lrc_part = result[4];
+
+            let time = (minute * 60) + (second - 0);
+
+            lrcObj[time] = lrc_part;
+        }
+
+        return lrcObj;
+    }
+
+    // 插入DOM
+    function createDOM(obj){
+        let $lrc = $("#lrc");
+
+        let lrc_html = '';
+        for(var time in obj){
+            lrc_html += `<p time="${time}">${obj[time]}</p>`;
+        }
+        $lrc.html(lrc_html);
+    }
+
+    // 滚动
+    function lrcScroll(obj){
+        // audio 的timeupdate事件
+        $("#audio").on("timeupdate",function(e){
+           let currentTime = parseInt(e.target.currentTime);
+
+           console.log(obj[currentTime]);
+           if(!obj[currentTime]) return;
+
+           // 有这个歌词的话找到该歌词的元素
+            let p = $("#lrc").find(`p[time=${currentTime}]`);
+
+            // 给当前播放歌词添加背景色
+            p.addClass("lrcBg").siblings().removeClass("lrcBg");
+
+            console.log($("#lrc").offset().top)
+            // 算出#lrc与$p之间的差值
+            let minus = $("#lrc").offset().top - p.offset().top;
+
+            // 滚动
+            $("#lrc").animate({
+                top: minus
+            },'slow');
+
+
+        });
+    }
+
+    // 播放
+    $("#aw_tbody").on("click",".aw-play", function(){
+       let file_mp3 = $(this).attr("file");
+       let file_lrc = $(this).attr("fileLrc");
+
+       // 获取歌词
+        $.ajax({
+            url: file_lrc,
+            type: 'get',
+            success: function(text){
+                let lrcObj = parseText(text);
+                createDOM(lrcObj);
+                lrcScroll(lrcObj);
+            }
+        });
+
+       // 播放音乐
+       $("#audio").attr("src",file_mp3);
+
+    });
+
+</script>
+{{ /block }}

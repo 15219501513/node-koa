@@ -1,0 +1,55 @@
+﻿{{ extend './layout/main.html' }}
+
+{{ block 'content' }}
+<link rel="stylesheet" href="public/css/register.css" />
+<div class="container">
+    <div class="mod-head">
+        <h1>用户登录</h1>
+    </div>
+    <div class="mod-body">
+        <form>
+            <ul>
+                <li>
+                    <input type="text" name="username" id="username" placeholder="用户名" />
+                    <span class="error name-error"></span>
+                </li>
+                <li>
+                    <input type="text" name="password" id="password" placeholder="密码" />
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" value="agree" />
+                        记住我
+                    </label>
+                    <a href="/forgetPassword">忘记密码</a>
+                    <a class="pull-right" href="/register">去注册</a>
+                </li>
+                <li>
+                    <button id="login_btn" type="submit">登录</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<script>
+    let $login_btn = document.getElementById('login_btn');
+    $login_btn.onclick = function(e){
+        e.preventDefault();
+        $.ajax({
+            url: '/doLogin',
+            type: 'post',
+            data: {
+                username: $('#username').val(),
+                password: $('#password').val()
+            },
+            success: function(data){
+                if(data.code == 001){
+                    window.location.href = '/index';
+                }else{
+                    $('.name-error').text(data.msg);
+                }
+            }
+        });
+    }
+</script>
+{{ /block }}

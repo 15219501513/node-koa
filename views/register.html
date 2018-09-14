@@ -1,0 +1,133 @@
+
+{{ extend './layout/main.html' }}
+{{ block 'content' }}
+<link rel="stylesheet" href="public/css/register.css" />
+<div class="container">
+    <div class="mod-head">
+        <h1>注册新用户</h1>
+    </div>
+    <div class="mod-body">
+        <form id="aw_form">
+            <ul>
+                <li>
+                    <input type="text" name="username" id="username" placeholder="用户名" />
+                    <span class="error name-error"></span>
+                </li>
+                <li>
+                    <input type="text" name="email" id="email" placeholder="邮箱" />
+                </li>
+                <li>
+                    <input type="text" name="password" id="password" placeholder="密码" />
+                </li>
+                <li>
+                    <span>密码强度</span>
+                    <div class="level"></div>
+                    <div class="level"></div>
+                    <div class="level"></div>
+                </li>
+                <li>
+                    <input class="aw-psw" type="text" style="width: 300px" name="code" id="code" placeholder="验证码" />
+                    <img class="aw-png" src="/getPic" onclick="this.src='/getPic?'+Date.now()" />
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" checked="checked" value="agree" />
+                        我同意
+                    </label>
+                    <a>用户协议</a>
+                    <a href="/login">已有账号</a>
+                </li>
+                <li>
+                    <button id="aw_btn" type="submit">注册</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+</div>
+<script>
+    // 监听keyup后会连续调用接口，这里采用函数节流，setTimeOut(code, millisec)
+    // 封装闭包，将全局变量放置在里面
+    $("#username").on("keyup", doRegister());
+    function doRegister(){
+        let username_global,timer;
+        return function(){
+            let username = $("#username").val();
+            clearTimeout(timer);
+            if(username_global === username){
+                return;
+            }
+            if(username){
+                timer = setTimeout(function(){
+                    $.ajax({
+                        url: '/checkName',
+                        type: 'post',
+                        data: {
+                            username: $("#username").val()
+                        },
+                        success: function(data){
+                            username_global = $("#username").val();
+                            $(".name-error").text(data.msg);
+                        }
+                    });
+                },300);
+            }
+        }
+    }
+
+
+    // 密码强度
+    function pswLevel(psw){
+        let psw_level = 0;
+
+        let res_psw1 = /\w/; // 匹配字母或数字或下划线或汉字
+        let res_psw2 = /\d/; // 纯数字
+        let res_psw3 = /\W/; // 匹配任意不是字母，数字，下划线，汉字的字符
+
+        if(res_psw1.test(psw)) psw_level++;
+        if(res_psw2.test(psw)) psw_level++;
+        if(res_psw3.test(psw)) psw_level++;
+
+        return psw_level;
+    }
+
+    $("#password").on("keyup", function(){
+        // 选出强度变化的元素
+        let $tmp_level = $(".level");
+        // 初始化颜色
+        $(".level").css({"background-color": ""});
+
+        let psw = $("#password").val();
+
+        let psw_level = pswLevel(psw);
+        let colors = ["#ee3201","#f78115","#6ba001"];
+        for(let i=0; i<psw_level; i++){
+            $($tmp_level[i]).css({"background-color": colors[i]});
+        }
+    });
+
+
+    $("#aw_form").on("submit", function(e){
+        e.preventDefault();
+
+        // 获取key=value表单数据，类似a=1&b=2&c=5这种
+        let formData = $(this).serialize();
+
+        $.ajax({
+            url: '/doRegister',
+            type: 'post',
+            data: formData,
+            dataType: 'json',
+            success: function(data){
+                if(data.code === "001"){
+                    if(confirm('注册成功，去登录？')){
+                        window.location.href='/login';
+                    }
+                }else{
+                    alert(data.msg);
+                }
+            }
+        });
+    })
+</script>
+{{ /block }}

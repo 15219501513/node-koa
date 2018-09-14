@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--引入所需的依赖文件-->
+    {{ include '../common/linker.html' }}
+</head>
+<body>
+    <!--引入头部-->
+    {{ include '../common/header.html' }}
+
+    <!--中间留坑-->
+    {{ block 'content' }}{{ /block }}
+
+    <!--引入底部-->
+    {{ include '../common/footer.html' }}
+</body>
+</html>

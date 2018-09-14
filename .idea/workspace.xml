@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc0b7850-2bfd-481e-ae25-bb7aa8ec2b19" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_045b7dda6f159a06f3e18b104f6c9eb7.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_0dc97346bcb00d4e8f48f2245be8411b.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_0e68f9e19e4e5cadfa44e33a9c862bfe.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_200bef53b6db101fc8c09f6dff7c26be.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_2fbb00309001a7556d96fc559eeb2535.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_30b7ea120e2160d6f3c556491523d7a7.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_4ac34c3d4ffe492edff696a8bb2938b6.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_4ad7653a0e4bb8976ab2a741b458b5f7.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_4de34ca91451947f9c0d1bc9c5629d1f.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_5508b3c652317fd25f940b1c39bf7a79.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_687dcd1717014b32ddc9f8cce5df20ec.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_6a3231ed0cdc870d2078f46b70ebb420.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_879a3daef618231aaea3dcf6e3d1e973.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_8918e808ea0d19867c89f099027c4f99.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_89c7587ecf4870e6d0562e628ac78ceb.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_8a5efd0f6e55405322d8eeee7515328f.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_8c140a7fb8b436b1b0ca168e97e86056.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_8f842b2bde8d163e4b18f913b540e9f6.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_8fcd301543f92054ec525cf2666b5ed0.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_b7a6545d374e2ed2cc2d66ef3f41fefc.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_bb589e649dcb993a7f03f978e01aba97.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_bb88ae6bd05e80070a6e0e5a98502f56.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_c7bf91ff6d73bfd8cc0bf838153ea46c.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_c966146b26bb6ed431b454c73b1824f6.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_d5e52b9e59f20edd54d53445ef1da61f.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_dc8eb1083da9b263909762ce1d94244f.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_f4ab264f9de008671b5403d4857dd2ea.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_f67c435d20db4af3f9407a155819d0d0.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/node-koa.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/music_controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/user_register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/moduleJS/mysql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_00b6b904a923434a41027491a6a68fd2.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_0e5b1596d8c69577f4b6a5a22cc9d6ef.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_0eccf03b7e84980edadbb91b41dd41f0.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_19a56a4c5900440303d5c978281396d3.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_2af00cd87753f6b761c9785d6f2f96dc.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_2b5ae24f340ad91e341f9aa47b8234e1.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_2d26607e2d39675b75e3507fad3558db.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_2ffc2af9229421d163cfa18dc41ba140.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_3ddb2bfd84c6cf639999674ef40bf240.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_50a674d3dcce0e41e0d395d23db05e27.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_5bb97ae5d3c5915f13371052b41031fd.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_673b407ab2b6a3dc5235a528b9bf635b.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_7bff7503ce4ce92d6e63f1ad7aa919b6.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_8527bd2534b79a20d4306db860e1ec56.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_95fcee5f7039265a58fffe334f733038.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_977a9566a7c1da7ef02246cca4491ad4.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_a4ee52449628455e37007d1bf0875c4b.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_a9c698c424be7b6b0667ca52c223cb9a.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_bcf129722efdec347d79ec92b40bbc7f.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_c434d59607d02b402494f32efe4af2ca.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_cc7b417aaafa3e127b0f8f5685afb7a7.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_d9a27e6c797729fd44fdf89c7144bf5e.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_e0f0374719a2072f50b1f048bc41905b.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_ecc48a90a1b8e103b0bd10b8f901e5e2.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_ef70528e4b48197f822c385002f6dd82.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_f481c961188c3a645d24dfe9081557fb.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_f72db88302744622e30d1855722c4381.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/upload_fbf862a8f3ce9e117741544d9037aea8.lrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jslibs/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jslibs/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/music_router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/user_router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/addMusic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/common/linker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/editMusic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/register.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="181" />
+    <option name="y" value="124" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-koa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-koa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc0b7850-2bfd-481e-ae25-bb7aa8ec2b19" name="Default" comment="" />
+      <created>1536895959580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536895959580</updated>
+      <workItem from="1536895962324" duration="1397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1397000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="181" y="124" width="1920" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Q.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

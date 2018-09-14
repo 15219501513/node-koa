@@ -1,0 +1,7 @@
+# see https://github.com/15219501513/node-koa.git
+
+# dependencies
+/node_modules
+
+# misc
+Q.txt
