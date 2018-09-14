@@ -1,2 +1,24 @@
 # node-koa
-node+koa做的一个简单的音乐播放的网站，包含登录注册动能，音乐的增查删改以及音乐滚动播放 
+node+koa做的一个简单的音乐播放的网站，这是我初步学习koa做的项目，例子都比较简单，但是可以较全面系统的初步学习了解koa。 
+
+
+## Included Examples
+* [koa](https://github.com/15219501513/node-koa/edit/master/README.md) - 最简单的koa实例
+* [koa-router](https://github.com/15219501513/node-koa/edit/master/README.md) - koa-router路由中间件的使用
+* [koa-static](https://github.com/15219501513/node-koa/edit/master/README.md) - 设置静态文件目录
+* [koa-art-template;art-tempalte](https://github.com/15219501513/node-koa/edit/master/README.md) - 模板引擎
+* [koa-bodyparser](https://github.com/15219501513/node-koa/edit/master/README.md) - 数据处理
+* [koa-session](https://github.com/15219501513/node-koa/edit/master/README.md) - 数据存储
+* [mysql](https://github.com/15219501513/node-koa/edit/master/README.md) - 连接数据库，对数据进行增查删改
+* [函数节流](https://github.com/15219501513/node-koa/edit/master/README.md) - 优化前端性能，setTimeOut的使用
+* [密码强度检测](https://github.com/15219501513/node-koa/edit/master/README.md) - 正则匹配判断密码强度级别
+* [captchapng](https://github.com/15219501513/node-koa/edit/master/README.md) - 数字图形验证
+* [上传文件](https://github.com/15219501513/node-koa/edit/master/README.md) - 数据处理
+* [音乐播放歌词展示](https://github.com/15219501513/node-koa/edit/master/README.md) - 下载文件并处理数据，歌词展示并滚动
+
+## 暂时遗留问题
+* 问题一：audio标签播放音乐，在chrome上不能拖动播放，在火狐下可以，待解决
+* 问题二：编辑时文件的回写？？
+
+## 小结
+这是我github上的第一个项目，我觉得小结下很好，可以重新看下自己的项目和代码，做的功能，用到的知识点，增强了理解和记忆。
